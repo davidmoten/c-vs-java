@@ -11,8 +11,8 @@ Equivalent source code [src/main/java/Main.java](src/main/java/Main.java) in jav
 
 Two scripts are provided that compile and execute the relevant source:
 
-*```run-c.sh```
-*```run-java.sh```
+* ```run-c.sh```
+* ```run-java.sh```
 
 
 Results
