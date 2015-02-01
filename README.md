@@ -20,9 +20,8 @@ Results
 
 | Machine | Mean Java run time (s) | Mean C run time (s) | Java to C run time ratio |
 | ------------- | ------------- | ------------- | ------------- |
-| 5 year old i5 laptop | 7.88 | 4.83 | **1.7**  |
-| 4 year old i7 desktop  | 3.52 | 2.46 | **1.4**  |
-| 2 year old Xeon i7 desktop | 1.55 | 1.41 | **1.1**  |
-
+| 5 year old i5 laptop | 7.89 | 4.85 | **1.7**  |
+| 4 year old i7 desktop  | 4.87 | 6.12 | **1.4**  |
+| 2 year old Xeon i7 desktop | 4.43 | 2.50 | **1.1** |
 
 

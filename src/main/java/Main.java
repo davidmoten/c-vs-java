@@ -14,11 +14,11 @@ public class Main {
 					a[i][j] = 0;
 				}
 			}
-			a[0][0] = 1;
+
 			long start = System.currentTimeMillis();
 			int k;
 			for (k = 0; k < MINOR_LOOPS; k++) {
-
+				a[0][0] = 1;
 				// average
 				for (i = 1; i < SIZE - 1; i++) {
 					for (j = 1; j < SIZE - 1; j++) {

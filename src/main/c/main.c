@@ -16,12 +16,13 @@ int main() {
 		        a[i][j]=0;
 		    }
 		}
-		a[0][0]=1;
+		
 		clock_t start, diff;
 		start = clock();
 
 		int k;
 		for (k=0;k<MINOR_LOOPS;k++) {
+		  a[0][0]=1;
 		  for (i=1;i<SIZE-1;i++) {
 		    for (j=1;j<SIZE-1;j++) {
 		        a[i][j]=(a[i][j]  + a[i-1][j] + a[i+1][j]  + a[i][j+1] + a[i][j-1])/5;
