@@ -7,7 +7,7 @@ A 2D array of double with one million entries is subjected to manipulations vagu
 
 [src/main/c/Main.c](src/main/c/Main.c) is compiled with maximum optimizations (-Ofast) using *gcc 4.6.3* on Linux.
 
-Equivalent source code [src/main/java/Main.java](src/main/java/Main.java) in java is compiled using Java 1.8u25 and executed with the ```-server``` option.
+[src/main/java/Main.java](src/main/java/Main.java) in java is compiled using Java 1.8u25 and executed with the ```-server``` option.
 
 Two scripts are provided that compile and execute the relevant source:
 
