@@ -7,7 +7,7 @@ public class Main {
 			int i, j;
 			for (i = 0; i < 1000; i++) {
 				for (j = 0; j < 1000; j++) {
-					a[i][j] = i / 1000.0 * j / 1000.0;
+					a[i][j] = i / 1000.0 * j / 1000.0 / 100.0;
 				}
 			}
 			long start, diff;
@@ -22,8 +22,9 @@ public class Main {
 				}
 			}
 			double d = 0;
-			for (i = 1; i < 1000 - 1; i++) {
-				for (j = 1; j < 1000 - 1; j++) {
+			for (i = 0; i < 1000; i++) {
+				for (j = 0; j < 1000; j++) {
+					System.out.println(a[i][i]);
 					d += a[i][j];
 				}
 			}
