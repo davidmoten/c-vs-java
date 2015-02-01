@@ -21,8 +21,14 @@ public class Main {
 					}
 				}
 			}
+			double d = 0;
+			for (i = 1; i < 1000 - 1; i++) {
+				for (j = 1; j < 1000 - 1; j++) {
+					d += a[i][j];
+				}
+			}
 			diff = System.currentTimeMillis() - start;
-
+			System.out.println(d);
 			System.out.printf("Time taken %f seconds\n", diff / 1000.0);
 		}
 	}
