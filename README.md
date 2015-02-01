@@ -37,7 +37,21 @@ Time taken 6.075000 seconds
 ```
 
 ###i7 desktop
+C:
+```
+Time taken 2.464000 seconds
+Time taken 2.459000 seconds
+Time taken 2.459000 seconds
+Time taken 2.460000 seconds
+```
 
+Java:
+```
+Time taken 3.488000 seconds
+Time taken 3.489000 seconds
+Time taken 3.473000 seconds
+Time taken 3.474000 seconds
+```
 
 Thus run time was 1.4 to 1.7 times slower with Java than C.
 
