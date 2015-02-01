@@ -3,7 +3,7 @@ public class Main {
 	public static void main(String[] args) {
 		final int SIZE = 1000;
 		final int MINOR_LOOPS = 1000;
-		final int LOOPS = 10;
+		final int LOOPS = 5;
 		final double[][] a = new double[1000][SIZE];
 		int n;
 		for (n = 1; n < LOOPS; n++) {
@@ -17,8 +17,7 @@ public class Main {
 						a[i][j] = 1;
 				}
 			}
-			long start, diff;
-			start = System.currentTimeMillis();
+			long start = System.currentTimeMillis();
 			int k;
 			for (k = 0; k < MINOR_LOOPS; k++) {
 
@@ -30,7 +29,7 @@ public class Main {
 					}
 				}
 			}
-			diff = System.currentTimeMillis() - start;
+			long diff = System.currentTimeMillis() - start;
 			System.out.printf("Time taken %f seconds\n", diff / 1000.0);
 		}
 	}
