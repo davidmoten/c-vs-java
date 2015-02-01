@@ -6,7 +6,7 @@ int main() {
     printf("Starting\n");  
     int SIZE = 1000;
     int MINOR_LOOPS = 1000;
-    int LOOPS = 5;
+    int LOOPS = 10;
     double a[SIZE][SIZE];
     int n;
     for  (n=1;n<LOOPS;n++) {

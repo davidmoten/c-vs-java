@@ -3,7 +3,7 @@ public class Main {
 	public static void main(String[] args) {
 		final int SIZE = 1000;
 		final int MINOR_LOOPS = 1000;
-		final int LOOPS = 5;
+		final int LOOPS = 10;
 		final double[][] a = new double[1000][SIZE];
 		int n;
 		for (n = 1; n < LOOPS; n++) {
