@@ -5,7 +5,7 @@ Method
 ----------
 A 2D array of double with one million entries is subjected to manipulations vaguely like the application of heat transfer (at each time step each cell is a function of itself and the 4 adjacent cells (up, down, left, right)).
 
-[src/main/c/Main.c](src/main/c/Main.c) is compiled with maximum optimizations (```-Ofast```) using *gcc 4.6.3* on Linux.
+[src/main/c/Main.c](src/main/c/Main.c) is compiled using *gcc 4.6.3* with maximum optimizations (```-Ofast```) on Linux.
 
 [src/main/java/Main.java](src/main/java/Main.java) in java is compiled using *javac 1.8u25* and executed with the ```-server``` option.
 
