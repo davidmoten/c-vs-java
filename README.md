@@ -17,6 +17,7 @@ Two scripts are provided that compile and execute the relevant source:
 
 Results
 -----------
+###i5 laptop
 C:
 
 ```
@@ -35,8 +36,10 @@ Time taken 6.075000 seconds
 
 ```
 
-i.e for this use case Java takes 1.7 times longer.
+###i7 desktop
 
+
+Thus run time was 1.4 to 1.7 times slower with Java than C.
 
 
 
