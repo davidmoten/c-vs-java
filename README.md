@@ -35,6 +35,8 @@ Time taken 6.075000 seconds
 
 ```
 
+i.e for this use case Java takes 1.7 times longer.
+
 
 
 
