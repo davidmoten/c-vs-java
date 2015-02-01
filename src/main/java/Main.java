@@ -4,7 +4,7 @@ public class Main {
 		final int SIZE = 1000;
 		final int MINOR_LOOPS = 1000;
 		final int LOOPS = 10;
-		final double[][] a = new double[1000][SIZE];
+		final double[][] a = new double[SIZE][SIZE];
 		int n;
 		for (n = 0; n < LOOPS; n++) {
 			int i, j;
