@@ -17,29 +17,12 @@ Two scripts are provided that compile and execute the relevant source:
 
 Results
 -----------
-###i5 laptop
-C:
 
-```
-Time taken 3.570000 seconds
-Time taken 3.470000 seconds
-Time taken 3.490000 seconds
-Time taken 3.480000 seconds
-```
-
-Java:
-```
-Time taken 6.086000 seconds
-Time taken 6.054000 seconds
-Time taken 6.041000 seconds
-Time taken 6.075000 seconds
-
-```
-
-###i7 desktop
-
-
-Thus run time was 1.4 to 1.7 times slower with Java than C.
+| Machine | Java to C run time ratio |
+| ------------- | ------------- |
+| 5 year old i5 laptop  | 1.7  |
+| 4 year old i7 desktop  | 1.4  |
+| 2 year old Xeon i7 desktop  | 1.1  |
 
 
 
