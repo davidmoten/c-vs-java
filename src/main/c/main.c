@@ -3,30 +3,37 @@
 #include <time.h>
  
 int main() {
-    
-    double a[1000][1000];
+    printf("Starting\n");  
+    int SIZE = 1000;
+    int MINOR_LOOPS = 1000;
+    int LOOPS = 10;
+    double a[SIZE][SIZE];
     int n;
-    for  (n=1;n<10;n++) {
-    int i,j;
-    for (i=0;i<1000;i++) {
-        for (j=0;j<1000;j++) {
-            a[i][j]=i/1000.0*j/1000.0;
-        }
-    }
-    clock_t start, diff;
-    start = clock();
-    int k;
-    for (k=0;k<1000;k++) {
-      for (i=1;i<1000-1;i++) {
-        for (j=1;j<1000-1;j++) {
-            a[i][j]=4*a[i][j] -a[i-1][j]-a[i+1][j] -a[i][j+1]-a[i][j-1];
-        }
-      }
-    }
-    diff = clock() - start;
+    for  (n=1;n<LOOPS;n++) {
+		int i,j;
+		for (i=0;i<SIZE;i++) {
+		    for (j=0;j<SIZE;j++) {
+		      if (i==0)
+		        a[i][j] = 1;
+		      else 
+		        a[i][j]=1;
+		    }
+		}
+		clock_t start, diff;
+		start = clock();
 
-    int msec = diff * 1000 / CLOCKS_PER_SEC;
-    printf("Time taken %d seconds %d milliseconds\n", msec/1000, msec%1000);    
+		int k;
+		for (k=0;k<MINOR_LOOPS;k++) {
+		  for (i=1;i<SIZE-1;i++) {
+		    for (j=1;j<SIZE-1;j++) {
+		        a[i][j]=5*a[i][j] -a[i-1][j]-a[i+1][j] -a[i][j+1]-a[i][j-1];
+		    }
+		  }
+		}
+
+		diff = clock() - start;
+		int msec = diff * 1000 / CLOCKS_PER_SEC;
+		printf("Time taken %f seconds\n", msec/1000.0);    
     }
     return 0;
 
