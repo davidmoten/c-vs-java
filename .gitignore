@@ -6,3 +6,6 @@ pom.xml.next
 release.properties
 src/main/c/main
 src/main/java/Main.class
+.project
+.classpath
+.settings
