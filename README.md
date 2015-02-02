@@ -7,7 +7,7 @@ A 2D array of double with one million entries is subjected to a transformation o
 
 [src/main/c/main.c](src/main/c/main.c) is compiled using *gcc* with maximum optimizations (```-Ofast```) on Linux.
 
-[src/main/java/Main.java](src/main/java/Main.java) in java is compiled *javac* and executed with the ```-server``` option.
+[src/main/java/Main.java](src/main/java/Main.java) in java is compiled with *javac* and executed with the ```-server``` option.
 
 Two scripts are provided that compile and execute the relevant source:
 
