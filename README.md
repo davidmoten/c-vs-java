@@ -24,4 +24,12 @@ Using gcc 4.6.3, javac 1.8u25:
 | 2009 i5 laptop | 7.89 | 4.85 | **1.7**  |
 | 2012 Xeon i7 desktop | 4.43 | 2.50 | **1.8** |
 
+Using gcc 5.4.0, javac 1.8u151:
+
+| Machine | Mean Java run time (s) | Mean C run time (s) | Java to C run time ratio |
+| ------------- | ------------- | ------------- | ------------- |
+| i5-6200U @ 2.30GHz | 6.58 | 6.38 | **1.03**  |
+
+It appears that gcc 5 has some large performance regressions compared to gcc 4.6.3. Current state of affairs is that Java and C perform equally!
+
 
