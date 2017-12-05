@@ -30,6 +30,6 @@ Using gcc 5.4.0, javac 1.8u151:
 | ------------- | ------------- | ------------- | ------------- |
 | i5-6200U @ 2.30GHz | 6.58 | 6.38 | **1.03**  |
 
-It appears that gcc 5 has some large performance regressions compared to gcc 4.6.3. Current state of affairs is that Java and C perform equally!
+It appears that gcc 5 has some large performance regressions compared to gcc 4.6.3. Will be good to compare gcc 6 and 7 with Java to see if regressions fixed. 
 
 
